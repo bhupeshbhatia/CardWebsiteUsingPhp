@@ -1,0 +1,177 @@
+/*
+ * CSS page to style the selecCard.php page.
+ */
+
+body{
+	width:100%;
+	background: linear-gradient(-90deg, #1a0d00, #804000);          
+}
+
+#bgWrap{
+	width:60%;
+	padding:20px;
+	position:absolute;
+	left:350px;
+}
+h1{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:32px;
+	text-align:center;
+	color:#ffffff;
+}
+h1:hover{
+	font-family:"Franklin Gothic Medium Cond";
+	font-size:50px;
+	text-align:center;
+	color:red;
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	text-align:center;
+	color:#D5D5E5;
+}
+
+#tableheader{
+	position:absolute;
+	left:100px;
+}
+
+th{
+	border:1px solid #FFFFFF;
+	width:304px;
+	padding:10px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:large;
+	text-align:center;
+	color:#EEEEE4;	
+}
+
+#cardtable{
+	position:relative;
+	left:80px;
+	top:45px;
+}
+
+td{
+	border:3px solid #D5D5E5;
+	width: 300px;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	text-align: center;
+	color:#E4EEEE;	
+}
+
+#greetingcards:hover {
+	width:auto;
+	height:auto;
+	font-size:larger;
+}
+
+#deleteCard{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:32px;
+	text-align:center;
+	color:#ffffff;
+}
+
+#imageonmessage{
+	position:absolute;
+	top:200px;
+	left:50px;
+}
+
+#wrapForm{
+	position:absolute;
+	left:800px;
+	/*float:right;*/
+	top:200px;
+}
+
+label{
+	
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color: #ccccff;
+}
+
+input{
+	
+	
+	display:block;
+	width:350px;
+	height:25px;
+	padding:15px;
+	margin-bottom:15px;
+	background:linear-gradient(to bottom, #D8D8D8, #FFFFFF 20px);
+	border:1px solid #999999;
+	border-radius:5px;
+	box-shadow:0px 0px 8px #848484;
+	font-size:16px;
+	color:#585858;
+}
+
+textarea{
+	
+	display:block;
+	width:350px;
+	height:150px;
+	padding:15px;
+	background:linear-gradient(to bottom, #D8D8D8, #FFFFFF 50px);
+	border:1px solid #999999;
+	border-radius:10px;
+	box-shadow: 0px 0px 8px #848484;
+	font-family:Tahoma, sans-serif;
+	font-size:16px;
+	color:#585858;
+	resize:none;
+}
+
+#previewButton{
+	width:200px;
+	height:40px;	
+	margin-left:90px;
+	padding:5px;
+	background:#ffdf80;
+	border:1px solid #999999;
+	border-radius:15px;
+	font-size:20px;
+	color:#332600;
+	font-family:Tahoma, sans-serif;
+}
+
+#previewImage{
+
+	position:absolute;
+	top:200px;
+	left:50px;
+}
+
+.previewText{
+	position:relative;
+	top:100px;
+	left:700px;
+	color:#608f9f;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:40px;
+	font-weight:900;
+	
+}
+
+#previewMessage{
+	position:absolute;
+	left:750px;
+	top:400px;
+	width:400px;
+	color:#9494b8;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	word-wrap:break-word;
+}
+
+
+
+
